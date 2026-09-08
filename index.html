@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iva | IT Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">IVA.</div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-text">
+                <p class="small-title">HELLO, I'M</p>
+
+                <h1>Iva<br><span>Malla.</span></h1>
+
+                <p class="description">
+                    BSc IT student exploring technology, systems,
+                    networking and cybersecurity.
+                </p>
+
+                <button onclick="scrollToAbout()">Explore More ↓</button>
+            </div>
+
+            <div class="hero-card">
+                <div class="circle"></div>
+                <div class="card-content">
+                    <p>01</p>
+                    <h2>IT<br>Student</h2>
+                    <span>Learning • Building • Exploring</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <p class="small-title">01 — ABOUT</p>
+            <h2>Curious about<br><span>technology.</span></h2>
+
+            <p class="section-text">
+                I'm a BSc IT student interested in understanding how
+                technology works behind the scenes — from networks
+                and systems to cloud and cybersecurity.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="small-title">02 — SKILLS</p>
+
+            <div class="skills">
+                <div>Python</div>
+                <div>Networking</div>
+                <div>Linux</div>
+                <div>Git & GitHub</div>
+                <div>SQL</div>
+                <div>Cybersecurity</div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <p class="small-title">03 — CONTACT</p>
+            <h2>Let's connect.</h2>
+
+            <button onclick="showContact()">Say Hello →</button>
+
+            <p id="contact-message"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Iva Malla
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
